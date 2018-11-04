@@ -936,6 +936,10 @@ main {
     border-bottom: 1px solid #4a4a4a;
 }
 
+.footer .footer-nav li:hover {
+    text-decoration: underline;
+}
+
 .footer-bottom {
     max-width: 1200px;
     margin: 0 auto;
