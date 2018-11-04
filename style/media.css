@@ -1,18 +1,28 @@
 @media screen and (max-width: 1200px) {
-    .navigation, .header-promo, .member, .domain, .packages-filter, .about-us, .slider-comments, .functions, .footer {
+
+    .navigation,
+    .header-promo,
+    .member,
+    .domain,
+    .packages-filter,
+    .about-us,
+    .slider-comments,
+    .functions,
+    .footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .packages-item {
         justify-content: space-around;
     }
-    
+
     .packages .item {
         width: 45%;
         min-width: 300px;
         margin-bottom: 20px;
     }
-    
+
     .domain input[type="text"] {
         width: 80%;
     }
@@ -20,28 +30,28 @@
 }
 
 @media screen and (max-width: 860px) {
-    
+
     .domain input[type="text"] {
         width: 80%;
     }
-    
+
     .domain span {
         display: none;
     }
-    
+
     .domain select {
-       min-width: 20%;
-       padding-left: 10px;
+        min-width: 20%;
+        padding-left: 10px;
     }
-    
+
     .functions-item .item {
         margin-bottom: 20px;
     }
-    
+
     .footer-bottom {
         justify-content: space-evenly;
     }
-    
+
     .footer-bottom .contacts {
         padding-left: 0;
         border: none;
@@ -52,40 +62,41 @@
 
 @media screen and (max-width: 815px) {
     .navigation .tab-nav {
-    display: block;    
+        display: block;
     }
-    
+
     .navigation .desc-nav {
         display: none;
     }
 }
+
 @media screen and (max-width: 565px) {
     .slides p:last-child {
         top: 13px;
     }
-    
+
     .footer-nav nav ul li {
         margin-left: 20px;
     }
-    
+
     .about-us .text {
         width: 100%;
         padding-right: 0;
         border-right: 0;
         margin-bottom: 30px;
-        transition: all 500ms linear 50ms;    
+        transition: all 500ms linear 50ms;
     }
-    
+
     .about-us .team {
         width: 100%;
         transition: all 500ms linear 50ms;
     }
-    
+
     .about-us .item {
         margin-left: 0;
         transition: all 500ms linear 50ms;
     }
-    
+
     .footer-bottom .autor {
         padding-right: 0;
         border-right: 0;
@@ -97,68 +108,70 @@
     .footer .footer-nav {
         justify-content: center;
     }
-    
+
     .footer-nav .logo {
         display: none;
     }
-    
+
     .navigation-flex {
         height: 60px;
     }
-    
+
     .tab-menu-container {
         top: 60px;
     }
-    
+
     .member button {
         font-size: 1em;
     }
-    
+
     .domain input[type="text"] {
         width: 75%;
     }
 }
 
 @media screen and (max-width: 465px) {
-    
+
     .member button {
         width: 100px;
         height: 40px;
     }
-    
+
     .member button:first-child {
         margin-right: 10vw;
     }
+
     .member button:last-child {
         margin-left: 10vw;
     }
-    
+
 }
 
 @media screen and (max-width: 415px) {
-    
+
     .slides p:last-child {
         top: 9px;
     }
-    
+
     .slider-comments .controls {
         top: 147px;
     }
-    
+
     .domain input[type="text"] {
         width: 70%;
     }
-    
+
 }
 
 @media screen and (max-width: 350px) {
     .footer-nav nav ul li {
         margin-left: 10px;
     }
+
     .footer-bottom .autor {
         margin-bottom: 45px;
     }
-    
+
     .slides p:last-child {
         font-size: 0.9em;
         top: 12px;
