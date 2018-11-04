@@ -55,3 +55,82 @@
         display: none;
     }
 }
+@media screen and (max-width: 565px) {
+    .slides p:last-child {
+        top: 13px;
+    }
+    
+    .footer-nav nav ul li {
+        margin-left: 20px;
+    }
+    
+    .about-us .text {
+        width: 100%;
+        padding-right: 0;
+        border-right: 0;
+        margin-bottom: 30px;
+        transition: all 500ms linear 50ms;    
+    }
+    
+    .about-us .team {
+        width: 100%;
+        transition: all 500ms linear 50ms;
+    }
+    
+    .about-us .item {
+        margin-left: 0;
+        transition: all 500ms linear 50ms;
+    }
+    
+    .footer-bottom .autor {
+        padding-right: 0;
+        border-right: 0;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .footer .footer-nav {
+        justify-content: center;
+    }
+    
+    .footer-nav .logo {
+        display: none;
+    }
+    
+    .navigation-flex {
+        height: 60px;
+    }
+    
+    .member button {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    
+    .member button {
+        width: 100px;
+        height: 40px;
+    }
+    
+    .member button:first-child {
+        margin-right: 10vw;
+    }
+    .member button:last-child {
+        margin-left: 10vw;
+    }
+    
+}
+
+@media screen and (max-width: 415px) {
+    
+    .slides p:last-child {
+        top: 9px;
+    }
+    
+    .slider-comments .controls {
+        top: 147px;
+    }
+    
+}
