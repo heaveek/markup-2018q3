@@ -55,8 +55,8 @@
             </div>
             
             <div class="member">
-                <button>Login</button>
-                <button>Register</button>
+                <button><label for="w-login">Login</label></button>
+                <button><label for="w-register">Register</label></button>
             </div>
         </header>
     
@@ -315,7 +315,32 @@
                 </div>
             </div>
         </footer>
-    
+        <!-- popups -->
+        <div class="window-login-block">
+          <input type="checkbox" class="window-checkbox" id="w-login">
+          <div class="window-login">
+            <div class="window-login-content">
+              <label for="w-login" class="window-login-closer">&#215;</label>
+                <div class="form-login">
+                    <form method="post" action="" class="popup-login-form">
+                        <div>
+                          <label for="input-login"></label>
+                          <input type="text" name="input-login" id="input-login" placeholder="Email" value="">
+                        </div>
 
+                        <div>
+                          <label for="password"></label>
+                          <input type="password" name="password" id="password" placeholder="12345689" value="">
+                        </div>
+
+                        <div class="login-submit">
+                          <button type="submit" class="login-button">LOGIN</button>
+                        </div>
+                        <p class="forgot-password"><a href="index.html">Remind me password</a></p>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
 </body>
 </html>
