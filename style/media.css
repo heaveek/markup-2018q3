@@ -12,11 +12,19 @@
         min-width: 300px;
         margin-bottom: 20px;
     }
+    
+    .domain input[type="text"] {
+        width: 80%;
+    }
 
 }
 
 @media screen and (max-width: 860px) {
-
+    
+    .domain input[type="text"] {
+        width: 80%;
+    }
+    
     .domain span {
         display: none;
     }
@@ -24,10 +32,6 @@
     .domain select {
        min-width: 20%;
        padding-left: 10px;
-    }
-    
-    .domain input[type="text"] {
-       width: 70%;
     }
     
     .functions-item .item {
@@ -89,7 +93,7 @@
     }
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 515px) {
     .footer .footer-nav {
         justify-content: center;
     }
@@ -102,8 +106,16 @@
         height: 60px;
     }
     
+    .tab-menu-container {
+        top: 60px;
+    }
+    
     .member button {
         font-size: 1em;
+    }
+    
+    .domain input[type="text"] {
+        width: 75%;
     }
 }
 
@@ -133,4 +145,22 @@
         top: 147px;
     }
     
+    .domain input[type="text"] {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .footer-nav nav ul li {
+        margin-left: 10px;
+    }
+    .footer-bottom .autor {
+        margin-bottom: 45px;
+    }
+    
+    .slides p:last-child {
+        font-size: 0.9em;
+        top: 12px;
+    }
 }
