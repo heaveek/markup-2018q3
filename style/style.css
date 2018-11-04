@@ -30,7 +30,7 @@ header::after {
     top: 0; 
     left: 0;
     width: 100%;
-    height: 1025px;
+    height: 935px;
     background: black url(../img/body_bg.jpg) no-repeat  50% 0%;
     filter: brightness(40%);
     z-index: -99;
@@ -42,20 +42,20 @@ header::after {
     height: 29px;
 }
 
-.desc-nav nav ul {
+.desc-nav nav ul, .footer-nav nav ul {
    display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-end;
 }
 
-.desc-nav nav ul li {
+.desc-nav nav ul li, .footer-nav nav ul li {
     display: inline-block;
     list-style: none;
     margin-left: 65px;
 }
 
-.desc-nav nav ul li a {    
+.desc-nav nav ul li a, .footer-nav nav ul li a {    
     font-weight: 400;
     font-size: 0.8em;
     text-decoration: none;
@@ -73,7 +73,14 @@ header::after {
     z-index: 99;
 } 
 
-.navigation {
+.navigation {    
+    width: 100%;
+    position: fixed;
+    background-color: #060609;
+    z-index: 20;
+}
+
+.navigation-flex {
     max-width: 1200px;
     height: 90px;
     display: flex;
@@ -418,10 +425,9 @@ main {
     height: auto;
     background: url(../img/package_bg.jpg) no-repeat  50% 0%;
     background-size: cover; 
-    border-bottom: 2px dashed #d9d9d9;
 }
 .packages-filter {
-    background-image: linear-gradient(to bottom, transparent 50%, white 50%), repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 2px, rgba(0, 0, 0, 0.5) 2px, rgba(0, 0, 0, 0.5) 3px);;
+    background-image: linear-gradient(to bottom, transparent 50%, white 50%), repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 2px, rgba(0, 0, 0, 0.5) 2px, rgba(0, 0, 0, 0.5) 3px);
     height: inherit;
     display: flex;
 	flex-direction: row;
@@ -438,6 +444,8 @@ main {
 	align-items: flex-start;
 	align-content: flex-start;
     margin-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 2px dashed #d9d9d9;
 }
 
 .packages .item {
@@ -639,7 +647,7 @@ main {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-end;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
@@ -835,7 +843,7 @@ main {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 }
 

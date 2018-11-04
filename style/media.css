@@ -1,17 +1,18 @@
 @media screen and (max-width: 1200px) {
-    .navigation, .header-promo, .member, .domain, .packages, .about-us, .comments, .functions, .footer {
-        padding: 0 15px;
+    .navigation, .header-promo, .member, .domain, .packages-filter, .about-us, .slider-comments, .functions, .footer {
+        padding-left: 20px;
+        padding-right: 20px;
     }
-}
-
-@media screen and (max-width: 815px) {
-    .navigation .tab-nav {
-    display: block;    
+    .packages-item {
+        justify-content: space-around;
     }
     
-    .navigation .desc-nav {
-        display: none;
+    .packages .item {
+        width: 45%;
+        min-width: 300px;
+        margin-bottom: 20px;
     }
+
 }
 
 @media screen and (max-width: 860px) {
@@ -28,5 +29,29 @@
     .domain input[type="text"] {
        width: 70%;
     }
+    
+    .functions-item .item {
+        margin-bottom: 20px;
+    }
+    
+    .footer-bottom {
+        justify-content: space-evenly;
+    }
+    
+    .footer-bottom .contacts {
+        padding-left: 0;
+        border: none;
+        margin-top: 25px;
+    }
 
+}
+
+@media screen and (max-width: 815px) {
+    .navigation .tab-nav {
+    display: block;    
+    }
+    
+    .navigation .desc-nav {
+        display: none;
+    }
 }
